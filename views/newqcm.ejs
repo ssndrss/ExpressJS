@@ -1,0 +1,132 @@
+<%- include('header') -%>
+
+<form action="/qcms/newqcm" method="POST">
+    <p>Ajouter un QCM :</p>
+    <div>
+        <label for="name">Nom du QCM</label>
+        <input type="text" id="name" name="name">
+    </div>
+    <div>
+        <label for="theme">Thème</label>
+        <input type="text" id="theme" name="theme">
+    </div>
+    <div>
+        <label for="nb_points">Nombre de points</label>
+        <input type="text" id="nb_points" name="nb_points">
+    </div>
+    <div class="question1">
+        <div>
+            <label for="question1">Question 1 :</label>
+            <input type="text" id="question1" name="question1">
+        </div>
+        <div class="reponses">
+            <div>
+                <label for="answer1_q1">Réponse 1 :</label>
+                <input type="" id="answer1_q1" name="answer1_q1">
+                <input type="checkbox" id="checkbox1_q1" name="checkbox1_q1">
+            </div>
+            <div>
+                <label for="answer2_q1">Réponse 2 :</label>
+                <input type="" id="answer2_q1" name="answer2_q1">
+                <input type="checkbox" id="checkbox2_q1" name="checkbox2_q1">
+            </div>
+            <div>
+                <label for="answer3_q1">Réponse 3 :</label>
+                <input type="" id="answer3_q1" name="answer3_q1">
+                <input type="checkbox" id="checkbox3_q1" name="checkbox3_q1">
+            </div>
+            <div>
+                <label for="answer4_q1">Réponse 4 :</label>
+                <input type="" id="answer4_q1" name="answer4_q1">
+                <input type="checkbox" id="checkbox4_q1" name="checkbox4_q1">
+            </div>
+        </div>
+    </div>
+    <div class="question2">
+        <div>
+            <label for="question2">Question 2 :</label>
+            <input type="text" id="question2" name="question2">
+        </div>
+        <div class="reponses">
+            <div>
+                <label for="answer1">Réponse 1 :</label>
+                <input type="" id="answer1" name="answer1">
+                <input type="checkbox" id="checkbox1" name="checkbox1">
+            </div>
+            <div>
+                <label for="answer2">Réponse 2 :</label>
+                <input type="" id="answer2" name="answer2">
+                <input type="checkbox" id="checkbox2" name="checkbox2">
+            </div>
+            <div>
+                <label for="answer3">Réponse 3 :</label>
+                <input type="" id="answer3" name="answer3">
+                <input type="checkbox" id="checkbox3" name="checkbox3">
+            </div>
+            <div>
+                <label for="answer4">Réponse 4 :</label>
+                <input type="" id="answer4" name="answer4">
+                <input type="checkbox" id="checkbox4" name="checkbox4">
+            </div>
+        </div>
+    </div>
+    <div class="question3">
+        <div>
+            <label for="question3">Question 3 :</label>
+            <input type="text" id="question3" name="question3">
+        </div>
+        <div class="reponses">
+            <div>
+                <label for="answer1">Réponse 1 :</label>
+                <input type="" id="answer1" name="answer1">
+                <input type="checkbox" id="checkbox1" name="checkbox1">
+            </div>
+            <div>
+                <label for="answer2">Réponse 2 :</label>
+                <input type="" id="answer2" name="answer2">
+                <input type="checkbox" id="checkbox2" name="checkbox2">
+            </div>
+            <div>
+                <label for="answer3">Réponse 3 :</label>
+                <input type="" id="answer3" name="answer3">
+                <input type="checkbox" id="checkbox3" name="checkbox3">
+            </div>
+            <div>
+                <label for="answer4">Réponse 4 :</label>
+                <input type="" id="answer4" name="answer4">
+                <input type="checkbox" id="checkbox4" name="checkbox4">
+            </div>
+        </div>
+    </div>
+    <div class="question4">
+        <div>
+            <label for="question4">Question 4 :</label>
+            <input type="text" id="question4" name="question4">
+        </div>
+        <div class="reponses">
+            <div>
+                <label for="answer1">Réponse 1 :</label>
+                <input type="" id="answer1" name="answer1">
+                <input type="checkbox" id="checkbox1" name="checkbox1">
+            </div>
+            <div>
+                <label for="answer2">Réponse 2 :</label>
+                <input type="" id="answer2" name="answer2">
+                <input type="checkbox" id="checkbox2" name="checkbox2">
+            </div>
+            <div>
+                <label for="answer3">Réponse 3 :</label>
+                <input type="" id="answer3" name="answer3">
+                <input type="checkbox" id="checkbox3" name="checkbox3">
+            </div>
+            <div>
+                <label for="answer4">Réponse 4 :</label>
+                <input type="" id="answer4" name="answer4">
+                <input type="checkbox" id="checkbox4" name="checkbox4">
+            </div>
+        </div>
+    </div>
+    <input type="submit" value="Create">
+</form>
+
+<%- include('footer') -%>

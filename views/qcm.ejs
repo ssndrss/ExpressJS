@@ -1,0 +1,19 @@
+<%- include('header') -%>
+    
+    <body>
+        <p>Détails du QCM</p>
+        <div>
+            Titre : "<%= qcm.name %>"
+        </div>
+        <div>
+            Matière : <%= qcm.theme %>
+        </div>
+        <div>
+            Nombre de points : <%= qcm.nb_points %>
+        </div>
+        <div>
+            Questions : <%= question.title %>
+        </div>
+    </body>
+
+<%- include('footer') -%>
