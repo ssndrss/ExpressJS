@@ -11,9 +11,16 @@
         <div>
             Nombre de points : <%= qcm.nb_points %>
         </div>
-        <div>
-            Questions : <%= question.title %>
-        </div>
+        <% for (let i = 0; i < questions.length; i++) { %>
+            <div>
+                <p>Question <%= i + 1 %>: <%= questions[i].question.title %></p>
+                <ul>
+                    <% for (let j = 0; j < questions[i].answers.length; j++) { %>
+                        <li><%= questions[i].answers[j].title %></li>
+                    <% } %>
+                </ul>
+            </div>
+        <% } %>
     </body>
 
 <%- include('footer') -%>
