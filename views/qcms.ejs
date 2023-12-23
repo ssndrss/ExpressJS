@@ -4,7 +4,7 @@
         <p>Mes QCMS disponibles</p>
         <ul>
             <% for (let qcm of qcms) { %>
-            <li><%= qcm.name %> (<%= qcm.theme %>) : <%= qcm.nb_points %></li>
+            <li>QCM <%= qcm.id %> - <%= qcm.name %> (Thème : <%= qcm.theme %>) - Noté sur <%= qcm.nb_points %> points</li>
             <% } %>
         </ul>
     </body>
